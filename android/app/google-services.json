@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "883158564214",
-    "project_id": "rozaila-delivery-boy",
-    "storage_bucket": "rozaila-delivery-boy.appspot.com"
+    "project_number": "684079263336",
+    "project_id": "zamzam-delivery",
+    "storage_bucket": "zamzam-delivery.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:883158564214:android:2cbd485b85a7209ba7ce57",
+        "mobilesdk_app_id": "1:684079263336:android:3c1a69e64c5d10b26d15dd",
         "android_client_info": {
-          "package_name": "com.stop4web.grocery_delivery_boy"
+          "package_name": "com.stop4web.zamzam_delivery_boy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "883158564214-bgsmlao2oldft63o092rnd8f7dusdnea.apps.googleusercontent.com",
+          "client_id": "684079263336-5kihqncgrf6l84aqul0tod9g7f5tsk02.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCQE-SgRKYlFJUFDfVBpcsynytUpcMij8I"
+          "current_key": "AIzaSyCga13VSQC0rM8wQnYkwhHHyPqIXlBmoNM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "883158564214-bgsmlao2oldft63o092rnd8f7dusdnea.apps.googleusercontent.com",
+              "client_id": "684079263336-5kihqncgrf6l84aqul0tod9g7f5tsk02.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

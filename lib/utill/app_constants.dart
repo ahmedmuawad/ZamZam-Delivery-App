@@ -2,7 +2,7 @@ import 'package:grocery_delivery_boy/data/model/response/language_model.dart';
 import 'package:grocery_delivery_boy/utill/images.dart';
 
 class AppConstants {
-  static const String APP_NAME = 'Rozaila Delivery';
+  static const String APP_NAME = 'ZamZam Delivery';
 
   static const String BASE_URL = 'https://rozalia.store/app';
   static const String PROFILE_URI = '/api/v1/delivery-man/profile?token=';

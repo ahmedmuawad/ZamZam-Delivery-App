@@ -5,22 +5,12 @@ import 'package:grocery_delivery_boy/utill/dimensions.dart';
 ThemeData dark = ThemeData(
   fontFamily: 'Rubik',
 
+  primaryColor: Color(0xFF82CAB6),
   brightness: Brightness.dark,
-  scaffoldBackgroundColor: Color(0xFF161C24),
-  hintColor: Colors.white,
-  canvasColor: Color(0xFFF9FAFA),
-  primaryColorLight: ColorResources.COLOR_WHITE,
-
-
-  shadowColor: Color(0xfff7f7f7),
-  backgroundColor: Color(0xFF121212), // for background color
-  cardColor: Color(0xFF1E1E1E), // for surface color
-  primaryColor: Color(0xFF82CAB6), // for primary color
-  highlightColor: Color(0xFFFFFFFF), // for on background text
-  focusColor: Color(0xFF8D8D8D),  // for On Surface text color
-  dividerColor: Color(0xFF2A2A2A), // for Any line
-  errorColor: Color(0xFFCF6679),  // for error color
-  primaryColorDark: Color(0xFF000000),  // for on primary color
+  scaffoldBackgroundColor: Color(0xFF2C2C2C),
+  cardColor: Color(0xFF121212),
+  hintColor: Color(0xFFE7F6F8),
+  focusColor: Color(0xFFADC4C8), // for on primary color
 
 
   textTheme: TextTheme(

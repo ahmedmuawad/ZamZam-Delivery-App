@@ -58,7 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 Padding(
                   padding: EdgeInsets.all(15.0),
                   child: Image.asset(
-                    Images.logo,
+                    Images.app_logo,
                     height: MediaQuery.of(context).size.height / 4.5,
                     fit: BoxFit.scaleDown,
                     matchTextDirection: true,

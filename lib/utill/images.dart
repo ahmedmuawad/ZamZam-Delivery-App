@@ -5,6 +5,7 @@ class Images {
   static const String location = 'assets/icon/location.png';
 
   // for Image
+  static const String app_logo = 'assets/image/zamzam_logo.png';
   static const String arabic = 'assets/image/arabic.png';
   static const String united_kindom = 'assets/image/united_kindom.png';
   static const String done = 'assets/icon/done.png';
