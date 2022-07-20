@@ -44,14 +44,14 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Colors.white,
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             ClipRRect(borderRadius: BorderRadius.circular(10), child: Image.asset(Images.app_logo, width: 150)),
             SizedBox(height: 20),
-            Text(AppConstants.APP_NAME, style: rubikBold.copyWith(fontSize: 30, color: Theme.of(context).primaryColor), textAlign: TextAlign.center),
+            Text(AppConstants.APP_NAME, style: rubikBold.copyWith(fontSize: 30, color: Color(0xFF7FC9EC)), textAlign: TextAlign.center),
           ],
         ),
       ),

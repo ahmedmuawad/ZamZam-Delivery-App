@@ -26,7 +26,7 @@ class CustomButton extends StatelessWidget {
         style: TextButton.styleFrom(padding: EdgeInsets.all(0)),
         child: Text(btnTxt ?? "",
             style: Theme.of(context).textTheme.headline3.copyWith(
-                color: isShowBorder ? Theme.of(context).textTheme.bodyText1.color : Theme.of(context).primaryColorDark, fontSize: Dimensions.FONT_SIZE_LARGE)),
+                color: isShowBorder ? Colors.white : Colors.white, fontSize: Dimensions.FONT_SIZE_LARGE)),
       ),
     );
   }

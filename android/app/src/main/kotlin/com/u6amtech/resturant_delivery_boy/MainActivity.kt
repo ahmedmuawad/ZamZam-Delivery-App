@@ -1,4 +1,4 @@
-package com.stop4web.grocery_delivery_boy
+package com.stop4web.zamzam_delivery_boy
 
 import io.flutter.embedding.android.FlutterActivity
 

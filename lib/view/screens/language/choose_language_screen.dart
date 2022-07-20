@@ -22,7 +22,7 @@ class ChooseLanguageScreen extends StatelessWidget {
     Provider.of<LanguageProvider>(context, listen: false).initializeAllLanguages(context);
 
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

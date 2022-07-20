@@ -8,7 +8,8 @@ ThemeData light = ThemeData(
   brightness: Brightness.light,
   cardColor: Colors.white,
   focusColor: Color(0xFFADC4C8),
-  hintColor: Color(0xFF52575C),  // for on primary color
+  hintColor: Color(0xFF52575C),
+
 
   textTheme: TextTheme(
     button: TextStyle(color: Colors.white),

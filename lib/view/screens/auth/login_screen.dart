@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.all(Dimensions.PADDING_SIZE_SMALL),
         child: Consumer<AuthProvider>(
@@ -61,7 +61,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     Images.app_logo,
                     height: MediaQuery.of(context).size.height / 4.5,
                     fit: BoxFit.scaleDown,
-                    matchTextDirection: true,
+
                   ),
                 ),
                 //SizedBox(height: 20),
@@ -130,7 +130,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     style: Theme.of(context)
                                         .textTheme
                                         .headline2
-                                        .copyWith(fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL, color: Theme.of(context).highlightColor),
+                                        .copyWith(fontSize: Dimensions.FONT_SIZE_EXTRA_SMALL, color: ColorResources.COLOR_GRAY),
                                   )
                                 ],
                               ),

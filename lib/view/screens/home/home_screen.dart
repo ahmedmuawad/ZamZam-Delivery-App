@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
     Provider.of<ProfileProvider>(context, listen: false).getUserInfo(context);
 
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Theme.of(context).cardColor,
         leadingWidth: 0,

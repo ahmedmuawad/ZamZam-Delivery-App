@@ -26,8 +26,8 @@
     </queries>
 
     <application
-        android:name=".Application"
-        android:label="Rozalia Delivery"
+        android:name="${applicationName}"
+        android:label="ZamZam Delivery"
         android:requestLegacyExternalStorage="true"
         android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher">
